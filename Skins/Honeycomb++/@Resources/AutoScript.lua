@@ -1,11 +1,27 @@
 function Initialize()
-    myname = CURRENTCONFIG
-    i = string.find(myname, "/")
-    myname = string.sub(myname, i+1, -1)
-    i = string.find(myname, "/")
-    if i ~= nil then
-        myname = string.sub(myname, 1, i-1)
+    myname = SKIN:GetVariable("CurrentIconConfig")
+    if myname == "NONE" then
+        myname = SKIN:GetVariable("CURRENTCONFIG")
     end
-    mylocation = string.upper(myname)
-    mylocation = mylocation .. "LOCATION"
+    myname = string.sub(myname, 13, -1)
+    mylocation = "#" .. myname
+    mylocation = mylocation .. "Location#"
+    mylocation = SKIN:ReplaceVariables(mylocation)
+    myprefix = string.lower(myname)
     
+    banga = "!SetVariable Location \"" .. mylocation
+    banga = banga .. "\""
+    bangb = "!SetOption Icon ImageName \"#@#Images\\" .. myprefix
+    bangb = bangb .. "-icon\""
+    bangc = "!SetOption Wallpaper ImageName \"#@#Images\\" .. myprefix
+    bangc = bangc .. "-bg\""
+    
+    if SKIN:GetMeter("Icon") ~= nil then
+        SKIN:Bang(banga)
+        SKIN:Bang(bangb)
+    else
+        print(bangc)
+        SKIN:Bang(bangc)
+    end
+    SKIN:Bang("!Update")
+end
