@@ -1,7 +1,7 @@
 [Variables]
 IconSize=105
 CurrentIconConfig=NONE
-CurrentTheme=Mountain
+CurrentTheme=Tree
 
 FirefoxLocation=C:\Program Files (x86)\Mozilla Firefox\firefox.exe
 GIMPLocation=C:\Program Files\GIMP 2\bin\gimp-2.8.exe
