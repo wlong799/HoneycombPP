@@ -1,6 +1,7 @@
 [Variables]
-IconSize=120
+IconSize=105
 CurrentIconConfig=NONE
+CurrentTheme=Wave
 
 FirefoxLocation=C:\Program Files (x86)\Mozilla Firefox\firefox.exe
 GIMPLocation=C:\Program Files\GIMP 2\bin\gimp-2.8.exe
