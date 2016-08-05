@@ -1,5 +1,8 @@
-# Honeycomb++ (v2.0.1)
+# Honeycomb++ (v2.2)
 ## Will Long
+
+![Honeycomb++ Screenshot 1](https://github.com/wlong799/HoneycombPP/blob/master/screenshot1.png)
+![Honeycomb++ Screenshot 2](https://github.com/wlong799/HoneycombPP/blob/master/screenshot2.png)
 
 **Honeycomb++** is a custom skin for the Windows desktop customization application, [Rainmeter](http://rainmeter.net/cms/).
 
@@ -29,10 +32,10 @@ Inspiration
 - Dynamic desktop backgrounds were adapted from [Honeycomb + Glorious Game Launcher](http://xdiabeetus.deviantart.com/art/Honeycomb-Glorious-Game-Launcher-Example-548266891), by xDiabeetus. 
 
 Tools
-- Icons and backgrounds were designed using [GIMP 2.8](https://www.gimp.org/),
-- The low-poly dynamic backgrounds were created using an image triangulator found [here](https://snorpey.github.io/triangulation/).
+- Icons and backgrounds were designed using [GIMP 2.8](https://www.gimp.org/).
+- The low-poly dynamic backgrounds were created using an image triangulator created by [georg](https://fishnation.de/), found [here](https://snorpey.github.io/triangulation/).
 
 Wallpapers
 - [Mountain](https://i.imgur.com/j0fiVnM.png)
-- [Tree](https://www.behance.net/gallery/Spring-Low-Poly/10840269), (Fabian Kozdon)
+- [Tree](https://www.behance.net/gallery/Spring-Low-Poly/10840269)
 - [Wave](https://www.reddit.com/r/backgrounds/comments/2b7iz1/lowpoly_the_great_wave_off_kanagawa/)

@@ -1,7 +1,7 @@
 [Variables]
 IconSize=90
 CurrentIconConfig=NONE
-CurrentTheme=Mountain
+CurrentTheme=Wave
 
 ChromeLocation=chrome.exe
 ExcelLocation=excel.exe
